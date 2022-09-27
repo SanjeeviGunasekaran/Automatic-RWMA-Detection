@@ -9,7 +9,6 @@ Lower fps data available at https://github.com/SanjeeviGunasekaran/Regional-Wall
 
 The EC3D-Net Setup <br />
 
-<!DOCTYPE html>
 <html>
 <head>
 </head>
@@ -20,7 +19,7 @@ The EC3D-Net Setup <br />
 
 
 The EC3D-Net Layers Architecture<br /> 
-<!DOCTYPE html>
+
 <html>
 <head>
 </head>
@@ -30,7 +29,7 @@ The EC3D-Net Layers Architecture<br />
 </html>
 
 Interpretability of the EC3D-Net<br /> 
-<!DOCTYPE html>
+
 <html>
 <head>
 </head>
