@@ -9,7 +9,7 @@ Lower fps data available at https://github.com/SanjeeviGunasekaran/Regional-Wall
 
 The EC3D-Net Setup <br />
 <!-- <img src="https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/overall_ec3d-net.jpg" alt="" width="600" /> -->
-
+![image](https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/overall_ec3d-net.jpg)
 
 The EC3D-Net Layers Architecture<br /> 
 
