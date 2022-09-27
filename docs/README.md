@@ -4,8 +4,8 @@ Methods: We developed a novel deep learning architecture EC3DNet (Echo-Cardio 3D
 Results: EC3D-Net achieves both an overall F1-Score and an Area Under Curve (AUC) score of 0.82. Further, we were able to reduce time for training and trainable parameters by 50% through minimizing frames per second. We also show the EC3D-Net is an interpretable model, thereby helping physicians understand our model prediction.<br />
 Conclusion: RWMA detection from echocardiogram videos is a challenging process and our results demonstrate that we could achieve the state-of-the-art results even while using minimal parameters and time by our EC3D-Net. The proposed network outperforms both complex deep networks as well as fusion methods generally used in video classification.<br />
 
-This study used the HMC-QU dataset. Original dataset available at <a href=https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset>here.</a> <br />
-Lower fps data available at <a href=https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/tree/main/Data>here.</a>
+This study used the HMC-QU dataset. Original dataset available at https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset <br />
+Lower fps data available at https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/tree/main/Data
 
 The EC3D-Net Setup <br />
 <!-- <img src="https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/overall_ec3d-net.jpg" alt="" width="600" /> -->
@@ -13,10 +13,10 @@ The EC3D-Net Setup <br />
 
 The EC3D-Net Layers Architecture<br /> 
 
-<img src= "https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/EC3D-Net_Arch.jpg" alt="" />
+![image](https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/EC3D-Net_Arch.jpg)
 
 
 Interpretability of the EC3D-Net<br /> 
 
-<img src= "https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/grad_cam_image.png" alt="" />
+![image](https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/grad_cam_image.png)
 
