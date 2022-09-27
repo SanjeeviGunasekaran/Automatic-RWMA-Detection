@@ -6,18 +6,24 @@
  <p>Purpose: The echocardiogram is an ultrasound imaging modality,employed to assess cardiac abnormalities. The Regional Wall Motion Abnormality (RWMA) is the occurrence of abnormal or absent contractility of a region of the heart muscle. 
   Conventional assessment of RWMA is based on visual interpretation of endocardial excursion and myocardial thickening from the echocardiogram videos. Wall motion assessment accuracy depends on the experience of the sonographer. 
   Current automated methods highly depend on the preprocessing steps such as segmentation of ventricle part or manually finding systole and diastole frames from an echocardiogram. Additionally, state-ofthe-art methods majorly make use of images rather than videos, 
-  which specifically lack the usage of temporal information associated with an echocardiogram. The deep learning models used, employ highly complex networks with billions of trainable parameters. Further, the existing models used on video data add to the computational intensity because of the high frame rates of echocardiogram videos.
-Methods: We developed a novel deep learning architecture EC3DNet
-(Echo-Cardio 3D Net), which captures the temporal information
-for identifying regional wall motion abnormality from echocardiogram.
-We demonstrate that EC3D-Net can extract temporal
-information from even raw echocardiogram videos, at low frame
-rates, employing minimal training parameter-based deep architecture..</p>
+  which specifically lack the usage of temporal information associated with an echocardiogram. The deep learning models used, employ highly complex networks with billions of trainable parameters. Further, the existing models used on video data add to the computational intensity because of the high frame rates of echocardiogram videos.<br />
+Methods: We developed a novel deep learning architecture EC3DNet (Echo-Cardio 3D Net), which captures the temporal information for identifying regional wall motion abnormality from echocardiogram.
+We demonstrate that EC3D-Net can extract temporal information from even raw echocardiogram videos, at low frame rates, employing minimal training parameter-based deep architecture.<br />
+  Results: EC3D-Net achieves both an overall F1-Score and an Area Under Curve (AUC) score of 0.82. Further, we were able to reduce time for training and trainable parameters by 50% through minimizing frames per second. We also show the EC3D-Net is an interpretable
+model, thereby helping physicians understand our model prediction.<br />
+Conclusion: RWMA detection from echocardiogram videos is a challenging process and our results demonstrate that we could achieve the state-of-the-art results even while using minimal parameters and time by our EC3D-Net. The proposed network outperforms both complex deep
+networks as well as fusion methods generally used in video classification.</p>
 </body>
 </html>
 
 <html>
  <body>
-  <p><img src="grad_cam_image.png" alt="parakeet"></p>
+  <p>The EC3D-Net Setup.</p>
+  <p><img src="overall_ec3d-net.jpg" alt=""></p>
+    <p>The EC3D-Net Layer Architecture.</p>
+  <p><img src="EC3D-Net_Arch.jpg" alt=""></p>
+    <p>This is a paragraph.</p>
+  <p><img src="grad_cam_image.png" alt=""></p>
+  
  </body>
 </html>
