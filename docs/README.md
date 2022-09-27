@@ -8,7 +8,7 @@ This study used the HMC-QU dataset. Original dataset available at https://www.ka
 Lower fps data available at https://github.com/SanjeeviGunasekaran/Regional-Wall-Motion-Abnormality-Detection/tree/main/Data
 
 The EC3D-Net Setup <br />
-<img src="https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/overall_ec3d-net.jpg" alt="" />
+<img src="https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/overall_ec3d-net.jpg" alt="overall process" width="600" />
 
 The EC3D-Net Layers Architecture<br /> 
 <img src= "https://github.com/SanjeeviGunasekaran/Automatic-RWMA-Detection/blob/main/docs/EC3D-Net_Arch.jpg" alt="" />
